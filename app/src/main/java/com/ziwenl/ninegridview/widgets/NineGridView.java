@@ -25,7 +25,7 @@ import java.util.List;
  * 该view继承于CardView以便于实现四周圆角效果，并在初始化时取消掉了cardView自带的阴影效果
  * 最多加载九张图片，超过九张只显示前九张
  */
-public class NineGirdView extends CardView {
+public class NineGridView extends CardView {
     /**
      * 间隔
      */
@@ -55,22 +55,22 @@ public class NineGirdView extends CardView {
     private int mPaddingTop, mPaddingLeft, mPaddingRight, mPaddingBottom;
 
 
-    public NineGirdView(Context context) {
+    public NineGridView(Context context) {
         this(context, null);
     }
 
-    public NineGirdView(Context context, @Nullable AttributeSet attrs) {
+    public NineGridView(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public NineGirdView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public NineGridView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         //取消阴影效果
         setCardElevation(0f);
-        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.NineGirdView, defStyleAttr,
+        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.NineGridView, defStyleAttr,
                 R.style.CardView);
-        mSpace = typedArray.getDimensionPixelOffset(R.styleable.NineGirdView_pictureSpace, 0);
-        int bigPictureMaxHeight = typedArray.getDimensionPixelOffset(R.styleable.NineGirdView_bigPictureMaxHeight, 500);
+        mSpace = typedArray.getDimensionPixelOffset(R.styleable.NineGridView_pictureSpace, 0);
+        int bigPictureMaxHeight = typedArray.getDimensionPixelOffset(R.styleable.NineGridView_bigPictureMaxHeight, 500);
         typedArray.recycle();
 
         mPaddingTop = getContentPaddingTop();

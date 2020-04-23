@@ -20,7 +20,7 @@
         android:layout_gravity="center_horizontal"
         tools:text="文字内容" />
 
-    <com.ziwenl.ninegridview.widgets.NineGirdView
+    <com.ziwenl.ninegridview.widgets.NineGridView
         android:id="@+id/gv_picture"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

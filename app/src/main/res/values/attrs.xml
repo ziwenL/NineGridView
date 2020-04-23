@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="NineGirdView">
+    <declare-styleable name="NineGridView">
         <attr name="bigPictureMaxHeight" format="dimension" />
         <attr name="pictureSpace" format="dimension" />
     </declare-styleable>
