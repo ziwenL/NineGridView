@@ -7,7 +7,7 @@
 <h6>使用步骤</h6>
 <ul>
 <li>
-<p>1.复制<a href="https://github.com/ziwenL/NineGridView/blob/master/app/src/main/java/com/ziwenl/ninegridview/widgets/NineGrdView.java"  rel="nofollow">NineGridView</a>类到项目中，替换TODO标签处的图片加载框架，复制<a href="https://github.com/ziwenL/NineGridView/blob/master/app/src/main/res/values/attrs.xml"  rel="nofollow">attrs</a>中定义的自定义属性</p>
+<p>1.复制<a href="https://github.com/ziwenL/NineGridView/blob/master/app/src/main/java/com/ziwenl/ninegridview/widgets/NineGridView.java"  rel="nofollow">NineGridView</a>类到项目中，替换TODO标签处的图片加载框架，复制<a href="https://github.com/ziwenL/NineGridView/blob/master/app/src/main/res/values/attrs.xml"  rel="nofollow">attrs</a>中定义的自定义属性</p>
 </li>
 <li>
 <p>2.在布局中引用NineGridView，宽度应为固定值或match_parent，高度应为wrap_content</p>
